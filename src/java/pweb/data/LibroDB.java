@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 import pweb.business.Libro;
 
-/**
- *
- * @author Fortress of Solitude
- */
 public class LibroDB {
     
     public static Libro getLibro(String codigo, String filepath) {
