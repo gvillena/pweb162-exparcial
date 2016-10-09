@@ -31,7 +31,7 @@ public class LibrosServlet extends HttpServlet {
         String action = request.getParameter("action");
         if (action == null) 
         {
-            url = "index.jsp";
+            url = "/index.jsp";
             action = "";  
         }
 
